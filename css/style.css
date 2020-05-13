@@ -10,8 +10,25 @@ body{
    height: 100vh;
    font-family: Arial; 
 }
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .menu{
     background-color: #f4f4f4;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+
+}
+.menu a{
+    color: steelblue;
+    display: block;
+    padding: 10px 20px;
 
 }
 a{
@@ -40,3 +57,9 @@ a:hover{
     color: whitesmoke;
     font-style: italic;
 }
+.img-portfolio{
+    width: 180px;
+    height: 180px;
+    background-color: whitesmoke;
+}
+
